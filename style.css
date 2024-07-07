@@ -1,0 +1,36 @@
+.circle {
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    animation: startmoving 5s;
+}
+
+@keyframes startmoving {
+
+    25%{
+        transform: translate(200px,0);
+        background-color: aqua;
+        border-radius: 30%;
+    }
+    
+    50%{
+        transform: translate(200px,200px);
+        background-color: black;
+        border-radius: 10%;
+    }
+    
+    75%{
+        transform: translate(0,200px);
+        background-color: red;
+        border-radius: 0%;
+    }
+    
+    100px{
+        transform: translate(0,0);
+
+    }
+}
