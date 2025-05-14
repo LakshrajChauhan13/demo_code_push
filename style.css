@@ -12,11 +12,24 @@
 
 p{
     position: absolute;
-    font-size: x;
+    font-size: x-large;
 }
 
 .circle:hover {
-    animation: startmoving 2s;
+    animation: startmoving 5s;
+}
+
+.radhe{
+    background-color: pink;
+    margin-top: 50px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
 }
 
 @keyframes startmoving {
@@ -39,8 +52,9 @@ p{
         border-radius: 0%;
     }
     
-    100px{
+    100%{
         transform: translate(0,0);
 
-
 }
+
+h1 {}
